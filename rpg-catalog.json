@@ -1,10 +1,10 @@
 {
-  "catalogVersion": 7,
+  "catalogVersion": 8,
   "updatedAt": "2026-06-09",
   "packages": [
     { "id": "dnd5e", "version": 2, "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd5e-srd.pdf" },
     { "id": "dnd35", "version": 1, "statsPresetId": "dnd5e", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd51-srd.pdf" },
-    { "id": "pathfinder", "version": 3, "statsPresetId": "pathfinder", "category": "fantasy" },
+    { "id": "pathfinder", "version": 4, "statsPresetId": "pathfinder", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/pathfinder-core-it.pdf" },
     { "id": "basic-fantasy", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
     { "id": "ose", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
     { "id": "knave", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
