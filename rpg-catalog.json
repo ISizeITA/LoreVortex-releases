@@ -2,33 +2,223 @@
   "catalogVersion": 11,
   "updatedAt": "2026-06-09",
   "packages": [
-    { "id": "dnd5e", "version": 2, "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd5e-srd.pdf" },
-    { "id": "dnd35", "version": 1, "statsPresetId": "dnd5e", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd51-srd.pdf" },
-    { "id": "pathfinder", "version": 4, "statsPresetId": "pathfinder", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/pathfinder-core-it.pdf" },
-    { "id": "basic-fantasy", "version": 3, "statsPresetId": "osrD20", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/basic-fantasy-lite.pdf" },
-    { "id": "ose", "version": 3, "statsPresetId": "osrD20", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/ose-basic-rules.pdf" },
-    { "id": "knave", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
-    { "id": "cairn", "version": 2, "statsPresetId": "cairn", "category": "fantasy" },
-    { "id": "swords-wizardry", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
-    { "id": "13th-age", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
-    { "id": "shadowdark", "version": 2, "statsPresetId": "osrD20", "category": "fantasy" },
-    { "id": "dcc", "version": 2, "statsPresetId": "dcc", "category": "fantasy" },
-    { "id": "runequest", "version": 1, "statsPresetId": "runequest", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/runequest-quickstart.pdf" },
-    { "id": "coc", "version": 2, "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/coc-quickstart.pdf" },
-    { "id": "brp", "version": 2, "statsPresetId": "brp", "category": "horror", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/brp-quickstart.pdf" },
-    { "id": "delta-green", "version": 4, "statsPresetId": "deltaGreen", "category": "horror", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/delta-green-need-to-know.pdf" },
-    { "id": "gurps", "version": 1, "statsPresetId": "gurps", "category": "tools", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/gurps-lite.pdf" },
-    { "id": "swn", "version": 2, "statsPresetId": "swn", "category": "scifi", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/swn-free.pdf" },
-    { "id": "cepheus", "version": 4, "statsPresetId": "cepheus", "category": "scifi", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/cepheus-engine-srd.pdf" },
-    { "id": "cyberpunk-red", "version": 2, "statsPresetId": "cyberpunk", "category": "scifi" },
-    { "id": "alien-rpg", "version": 3, "statsPresetId": "alienRpg", "category": "scifi" },
-    { "id": "shadowrun-anarchy", "version": 3, "statsPresetId": "shadowrunAnarchy", "category": "scifi", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/shadowrun-anarchy-qs.pdf" },
-    { "id": "fate-core", "version": 3, "statsPresetId": "fate", "category": "tools", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/fate-core.pdf" },
-    { "id": "dungeon-world", "version": 2, "statsPresetId": "dungeonWorld", "category": "tools" },
-    { "id": "index-card-rpg", "version": 3, "statsPresetId": "icrpg", "category": "tools", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/index-card-rpg-quickstart.pdf" },
-    { "id": "troika", "version": 2, "statsPresetId": "troika", "category": "tools" },
-    { "id": "dungeonslayers", "version": 2, "statsPresetId": "dungeonslayers", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dungeonslayers-4.pdf" },
-    { "id": "dungeonslayers-plus", "version": 3, "statsPresetId": "dungeonslayersPlus", "category": "fantasy", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dungeonslayers-plus.pdf" },
-    { "id": "mothership", "version": 2, "statsPresetId": "mothership", "category": "horror", "hasRulebook": true, "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/mothership-welcome-wormhole.pdf" }
+    {
+      "id": "dnd5e",
+      "version": 2,
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd5e-srd.pdf",
+      "rulebookSha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87"
+    },
+    {
+      "id": "dnd35",
+      "version": 1,
+      "statsPresetId": "dnd5e",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dnd51-srd.pdf",
+      "rulebookSha256": "d3f94417d2532f42a5abaec07e71a59007bf6cc46992c6458be6667f7a9f1e34"
+    },
+    {
+      "id": "pathfinder",
+      "version": 4,
+      "statsPresetId": "pathfinder",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/pathfinder-core-it.pdf",
+      "rulebookSha256": "ed532c11f07d1801cf984abc22ff57ff05a40c8de43ccf7266023f4ae917e4b2"
+    },
+    {
+      "id": "basic-fantasy",
+      "version": 3,
+      "statsPresetId": "osrD20",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/basic-fantasy-lite.pdf",
+      "rulebookSha256": "5760aa7283e795ce0dec17b77a3c8b83f14bb14af638e5b3485e97c631e2411e"
+    },
+    {
+      "id": "ose",
+      "version": 3,
+      "statsPresetId": "osrD20",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/ose-basic-rules.pdf",
+      "rulebookSha256": "2db74b84f3becf23c038403bc0620b4fb8d6a812484c580135ef2a684633caba"
+    },
+    {
+      "id": "knave",
+      "version": 2,
+      "statsPresetId": "osrD20",
+      "category": "fantasy"
+    },
+    {
+      "id": "cairn",
+      "version": 2,
+      "statsPresetId": "cairn",
+      "category": "fantasy"
+    },
+    {
+      "id": "swords-wizardry",
+      "version": 2,
+      "statsPresetId": "osrD20",
+      "category": "fantasy"
+    },
+    {
+      "id": "13th-age",
+      "version": 2,
+      "statsPresetId": "osrD20",
+      "category": "fantasy"
+    },
+    {
+      "id": "shadowdark",
+      "version": 2,
+      "statsPresetId": "osrD20",
+      "category": "fantasy"
+    },
+    {
+      "id": "dcc",
+      "version": 2,
+      "statsPresetId": "dcc",
+      "category": "fantasy"
+    },
+    {
+      "id": "runequest",
+      "version": 1,
+      "statsPresetId": "runequest",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/runequest-quickstart.pdf",
+      "rulebookSha256": "de618f1d350fbb5352af13e9e104907941e13522592205000f4948ba397c797d"
+    },
+    {
+      "id": "coc",
+      "version": 2,
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/coc-quickstart.pdf",
+      "rulebookSha256": "39b6a53915ddf9f48831ae45ac7180b6c7d5fc7bf49e1b7fe764c28ed1885436"
+    },
+    {
+      "id": "brp",
+      "version": 2,
+      "statsPresetId": "brp",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/brp-quickstart.pdf",
+      "rulebookSha256": "c7c371a0b3e074cc01672cec5ed1a9e16ccb04c72ca9e4d8c859d1acb123cdca"
+    },
+    {
+      "id": "delta-green",
+      "version": 4,
+      "statsPresetId": "deltaGreen",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/delta-green-need-to-know.pdf",
+      "rulebookSha256": "6e5f6b7701f32c1c59b15aec81c1233b8457ba759bb038401554210fa31dfb00"
+    },
+    {
+      "id": "gurps",
+      "version": 1,
+      "statsPresetId": "gurps",
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/gurps-lite.pdf",
+      "rulebookSha256": "ed02c5b2b4f107a4eda4eaa33b9f286dd3f932829bef6263fc763c956588e941"
+    },
+    {
+      "id": "swn",
+      "version": 2,
+      "statsPresetId": "swn",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/swn-free.pdf",
+      "rulebookSha256": "092b9ebc3a9b92585488e20d5df0d532275d32cedeecd9f696d5fe3b6c9afbc7"
+    },
+    {
+      "id": "cepheus",
+      "version": 4,
+      "statsPresetId": "cepheus",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/cepheus-engine-srd.pdf",
+      "rulebookSha256": "eb70610f5a1a1da5e0634e7ec4406acf272878802c220f64125bbf1c9a2aadf8"
+    },
+    {
+      "id": "cyberpunk-red",
+      "version": 2,
+      "statsPresetId": "cyberpunk",
+      "category": "scifi"
+    },
+    {
+      "id": "alien-rpg",
+      "version": 3,
+      "statsPresetId": "alienRpg",
+      "category": "scifi"
+    },
+    {
+      "id": "shadowrun-anarchy",
+      "version": 3,
+      "statsPresetId": "shadowrunAnarchy",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/shadowrun-anarchy-qs.pdf",
+      "rulebookSha256": "f42cc4db388ef280d72906927bebed9d538f74cad5f71133d0f7bf78301dd525"
+    },
+    {
+      "id": "fate-core",
+      "version": 3,
+      "statsPresetId": "fate",
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/fate-core.pdf",
+      "rulebookSha256": "d1d4c1cc860f754106a577437f5c38d2d0a9193e8c97374031a07c41e9a50681"
+    },
+    {
+      "id": "dungeon-world",
+      "version": 2,
+      "statsPresetId": "dungeonWorld",
+      "category": "tools"
+    },
+    {
+      "id": "index-card-rpg",
+      "version": 3,
+      "statsPresetId": "icrpg",
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/index-card-rpg-quickstart.pdf",
+      "rulebookSha256": "944178cb2a6fc0a0dba0afdf61e712459a035c36e6d450c4844a831937b1776f"
+    },
+    {
+      "id": "troika",
+      "version": 2,
+      "statsPresetId": "troika",
+      "category": "tools"
+    },
+    {
+      "id": "dungeonslayers",
+      "version": 2,
+      "statsPresetId": "dungeonslayers",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dungeonslayers-4.pdf",
+      "rulebookSha256": "0c28ebbf3ba46a002e2355c20f00e2552491c1aca94575381889de8db4dcc276"
+    },
+    {
+      "id": "dungeonslayers-plus",
+      "version": 3,
+      "statsPresetId": "dungeonslayersPlus",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dungeonslayers-plus.pdf",
+      "rulebookSha256": "f236f9f97ac8180c5a37b5ce1058f7fd4bd700c4666b1578e03d8daac42d0a76"
+    },
+    {
+      "id": "mothership",
+      "version": 2,
+      "statsPresetId": "mothership",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/mothership-welcome-wormhole.pdf",
+      "rulebookSha256": "f40ff1e6fd35505c7f374053b25d84417b0b9c14ee8b11106ba100d1c14bdf46"
+    }
   ]
 }
