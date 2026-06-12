@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 15,
-  "updatedAt": "2026-06-12",
+  "catalogVersion": 17,
+  "updatedAt": "2026-06-09",
   "packages": [
     {
       "id": "dnd5e",
@@ -288,12 +288,12 @@
     },
     {
       "id": "open-legend",
-      "version": 1,
+      "version": 3,
       "statsPresetId": "openLegend",
       "category": "tools",
       "hasRulebook": true,
-      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/open-legend-core.pdf",
-      "rulebookSha256": "c851f08bde06b2fd1210b2986faa2d69a2f70cd2de249b91681b86d62731b4d7"
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/open-legend-srd.pdf",
+      "rulebookSha256": "2f6e40a5a934e70166d199cd171e7bcc6a43e7d4993d60d2821b3e2d41342edf"
     },
     {
       "id": "motw",
