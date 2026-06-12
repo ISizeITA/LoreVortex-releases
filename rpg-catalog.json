@@ -1,5 +1,5 @@
 {
-  "catalogVersion": 11,
+  "catalogVersion": 13,
   "updatedAt": "2026-06-09",
   "packages": [
     {
@@ -53,9 +53,12 @@
     },
     {
       "id": "cairn",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "cairn",
-      "category": "fantasy"
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/cairn.pdf",
+      "rulebookSha256": "5695dd39fa0306c89750a4f3dc6f97775716a8ae21f8514bd27ccb7e9004fa17"
     },
     {
       "id": "swords-wizardry",
@@ -65,15 +68,21 @@
     },
     {
       "id": "13th-age",
-      "version": 2,
-      "statsPresetId": "osrD20",
-      "category": "fantasy"
+      "version": 3,
+      "statsPresetId": "thirteenthAge",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/13th-age-srd.pdf",
+      "rulebookSha256": "f7e00fe338271300ce5856f8db35361c67f5c060ed256a5fc808623ce56071f9"
     },
     {
       "id": "shadowdark",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "osrD20",
-      "category": "fantasy"
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/shadowdark-quickstart.pdf",
+      "rulebookSha256": "45b172fc385dd6ed23669d8700dadc7eea500c5bee6cea8ee3f29abf1acda90f"
     },
     {
       "id": "dcc",
@@ -144,9 +153,12 @@
     },
     {
       "id": "cyberpunk-red",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "cyberpunk",
-      "category": "scifi"
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/cyberpunk-red-jumpstart.pdf",
+      "rulebookSha256": "fe89856934740928080ca6e5f1dabae014ef46d30e642b9c4e2418ff0315ffd1"
     },
     {
       "id": "alien-rpg",
@@ -174,9 +186,12 @@
     },
     {
       "id": "dungeon-world",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "dungeonWorld",
-      "category": "tools"
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dungeon-world-srd.pdf",
+      "rulebookSha256": "e97f588d5d47ebc6c8e12b861968b205bb686fc2f94047eec626dd1516c387e1"
     },
     {
       "id": "index-card-rpg",
@@ -219,6 +234,195 @@
       "hasRulebook": true,
       "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/mothership-welcome-wormhole.pdf",
       "rulebookSha256": "f40ff1e6fd35505c7f374053b25d84417b0b9c14ee8b11106ba100d1c14bdf46"
+    },
+    {
+      "id": "wwn",
+      "version": 1,
+      "statsPresetId": "swn",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/wwn-srd.pdf",
+      "rulebookSha256": "c0c524b1c0fc3c4e89c3cee08ea331379f4f20ea119d3cd2537be44bd293fe79"
+    },
+    {
+      "id": "pathfinder2e",
+      "version": 1,
+      "statsPresetId": "pathfinder2e",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/pathfinder2e-srd.pdf",
+      "rulebookSha256": "865d96097be768fdb3cb60c96057de567b318d50642744a7fa2b07087659da01"
+    },
+    {
+      "id": "starfinder",
+      "version": 1,
+      "statsPresetId": "pathfinder2e",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/starfinder-srd.pdf",
+      "rulebookSha256": "86e9c0c3e1fa895dabd9b841403d4b853b25ff2ed98e27dd2dfd116583cd6697"
+    },
+    {
+      "id": "trophy-dark",
+      "version": 1,
+      "statsPresetId": "trophyDark",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/trophy-dark-srd.pdf",
+      "rulebookSha256": "0c7cecddf5c960e43a9e390a61203f7dbf6a5389542c0c78d38beab7436560af"
+    },
+    {
+      "id": "open-legend",
+      "version": 1,
+      "statsPresetId": "openLegend",
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/open-legend-core.pdf",
+      "rulebookSha256": "c851f08bde06b2fd1210b2986faa2d69a2f70cd2de249b91681b86d62731b4d7"
+    },
+    {
+      "id": "motw",
+      "version": 1,
+      "statsPresetId": "pbta",
+      "category": "horror"
+    },
+    {
+      "id": "lasers-feelings",
+      "version": 1,
+      "statsPresetId": "lasersFeelings",
+      "category": "scifi"
+    },
+    {
+      "id": "xx24",
+      "version": 1,
+      "statsPresetId": "xx24",
+      "category": "scifi"
+    },
+    {
+      "id": "savage-worlds",
+      "version": 2,
+      "statsPresetId": "savageWorlds",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/savage-worlds-test-drive.pdf",
+      "rulebookSha256": "168f1675f3d9ff723e982d3118cccb6819d21a316c8f8a55fe525b1fb296bfbd"
+    },
+    {
+      "id": "mork-borg",
+      "version": 2,
+      "statsPresetId": "morkBorg",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/mork-borg-bare-bones.pdf",
+      "rulebookSha256": "f09678dc12030728c78a9e04ceb3d5d2d805735b55f56c9fd0e1a41959581ad1"
+    },
+    {
+      "id": "dragonbane",
+      "version": 1,
+      "statsPresetId": "dragonbane",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dragonbane-quickstart.pdf",
+      "rulebookSha256": "fea02f2460eae6794af82b2eb078f7b830a80b84357801bce2a0c060bf8a7061"
+    },
+    {
+      "id": "forbidden-lands",
+      "version": 1,
+      "statsPresetId": "yearZeroEngine",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/forbidden-lands-quickstart.pdf",
+      "rulebookSha256": "a6b5642624a4aa8edd8302c4e90c5c1056774bd98181d7e8f6627819be27d94b"
+    },
+    {
+      "id": "seventh-sea",
+      "version": 1,
+      "statsPresetId": "seventhSea",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/seventh-sea-quickstart.pdf",
+      "rulebookSha256": "2426fc8283fd28905b265caa5b4d9c3c8fccc4aee3e2521f03d70f3090c57adb"
+    },
+    {
+      "id": "mutant-year-zero",
+      "version": 1,
+      "statsPresetId": "yearZeroEngine",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/mutant-year-zero-starter.pdf",
+      "rulebookSha256": "0f17008d512b80e6ed3af78616b27006070d57e4615d7726b5a0739283c60e4a"
+    },
+    {
+      "id": "coriolis",
+      "version": 1,
+      "statsPresetId": "yearZeroEngine",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/coriolis-quickstart.pdf",
+      "rulebookSha256": "e7ae35e6878759d07e0e7f9fd7a69fbc4f11f7f7723954e68110f7b5aba2338e"
+    },
+    {
+      "id": "star-trek-adventures",
+      "version": 1,
+      "statsPresetId": "starTrek2d20",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/star-trek-adventures-quickstart.pdf",
+      "rulebookSha256": "70e00ddae7f0b26e97ff109b37d574af23659b7b778a38549e83458926a60378"
+    },
+    {
+      "id": "terminal-state",
+      "version": 1,
+      "statsPresetId": "yearZeroEngine",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/terminal-state-quickstart.pdf",
+      "rulebookSha256": "bef80a64b2359c1ab5f62f533d5f486adf27db2560b5d11ca91ffac3449d0ff1"
+    },
+    {
+      "id": "wrath-glory",
+      "version": 1,
+      "statsPresetId": "wrathGlory",
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/wrath-glory-rain-of-mercy.pdf",
+      "rulebookSha256": "16270f7b555a944ee31fec2e0ac774f4225a0a45fcad804d8c45fbe995958ad4"
+    },
+    {
+      "id": "trail-of-cthulhu",
+      "version": 1,
+      "statsPresetId": "gumshoe",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/trail-of-cthulhu-quickstart.pdf",
+      "rulebookSha256": "35c8402f77036e093081531ee7e7429047fabe7e647817744b7cdb83223fb9d2"
+    },
+    {
+      "id": "pugmire",
+      "version": 1,
+      "statsPresetId": "dnd5e",
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/pugmire-jumpstart.pdf",
+      "rulebookSha256": "938ef6d6b01d93731c136b5032969bb33bd3ce2743ef6e750093065249de9397"
+    },
+    {
+      "id": "zombicide-chronicles",
+      "version": 1,
+      "statsPresetId": "zombicide",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/zombicide-chronicles-quickstart.pdf",
+      "rulebookSha256": "76c326831833d274a4e85cae214d1b6d6aa316240eaa14a27c6dbca387be23bc"
+    },
+    {
+      "id": "fate-accelerated",
+      "version": 1,
+      "statsPresetId": "fate",
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/fate-accelerated.pdf",
+      "rulebookSha256": "93354930d775eddb9349611e681fc4930d8587bb5977f6dc83b32c3d679df65a"
     }
   ]
 }
