@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 13,
-  "updatedAt": "2026-06-09",
+  "catalogVersion": 15,
+  "updatedAt": "2026-06-12",
   "packages": [
     {
       "id": "dnd5e",
@@ -47,8 +47,8 @@
     },
     {
       "id": "knave",
-      "version": 2,
-      "statsPresetId": "osrD20",
+      "version": 3,
+      "statsPresetId": "knave",
       "category": "fantasy"
     },
     {
@@ -86,9 +86,12 @@
     },
     {
       "id": "dcc",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "dcc",
-      "category": "fantasy"
+      "category": "fantasy",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/dcc-quickstart.pdf",
+      "rulebookSha256": "d895c9b40bd7575dbe0af2dfe92e1d676ae2e7f03d62c39400b6f96bff385c2c"
     },
     {
       "id": "runequest",
@@ -123,6 +126,15 @@
       "hasRulebook": true,
       "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/delta-green-need-to-know.pdf",
       "rulebookSha256": "6e5f6b7701f32c1c59b15aec81c1233b8457ba759bb038401554210fa31dfb00"
+    },
+    {
+      "id": "vampire-v5",
+      "version": 2,
+      "statsPresetId": "vampire",
+      "category": "horror",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/vampire-v5-quickstart.pdf",
+      "rulebookSha256": "ddf8bafef7e1bfb5615bb2ea4a6c3dcd71c86aacc68839ab71814d8d06d2bad1"
     },
     {
       "id": "gurps",
@@ -204,9 +216,12 @@
     },
     {
       "id": "troika",
-      "version": 2,
+      "version": 3,
       "statsPresetId": "troika",
-      "category": "tools"
+      "category": "tools",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/troika-quickstart.pdf",
+      "rulebookSha256": "decd7b596ba81bada086b1205cf2ec38472db8d3e70b21801a908dab5a737acc"
     },
     {
       "id": "dungeonslayers",
@@ -255,8 +270,8 @@
     },
     {
       "id": "starfinder",
-      "version": 1,
-      "statsPresetId": "pathfinder2e",
+      "version": 2,
+      "statsPresetId": "starfinder",
       "category": "scifi",
       "hasRulebook": true,
       "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/starfinder-srd.pdf",
@@ -288,15 +303,21 @@
     },
     {
       "id": "lasers-feelings",
-      "version": 1,
+      "version": 2,
       "statsPresetId": "lasersFeelings",
-      "category": "scifi"
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/lasers-and-feelings.pdf",
+      "rulebookSha256": "8176c126615f817cf77e2b025e180781645cbbdccd9ba1036eafbacc30a6565c"
     },
     {
       "id": "xx24",
-      "version": 1,
+      "version": 2,
       "statsPresetId": "xx24",
-      "category": "scifi"
+      "category": "scifi",
+      "hasRulebook": true,
+      "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/24xx-srd.pdf",
+      "rulebookSha256": "91cded85ba01697d8ee65e1eb045b596b3593781e8b81fb0e502c1a77e30a4b7"
     },
     {
       "id": "savage-worlds",
@@ -408,7 +429,7 @@
     },
     {
       "id": "zombicide-chronicles",
-      "version": 1,
+      "version": 2,
       "statsPresetId": "zombicide",
       "category": "horror",
       "hasRulebook": true,
@@ -417,8 +438,8 @@
     },
     {
       "id": "fate-accelerated",
-      "version": 1,
-      "statsPresetId": "fate",
+      "version": 2,
+      "statsPresetId": "fateAccelerated",
       "category": "tools",
       "hasRulebook": true,
       "rulebookUrl": "https://raw.githubusercontent.com/ISizeITA/LoreVortex-releases/main/rpg-assets/fate-accelerated.pdf",
